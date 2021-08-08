@@ -12,6 +12,10 @@
     cursor: grab; 
 }
 
+.box:hover {
+    background-color: orange;
+}
+
 .outside {
     border: 1em solid orange;
     background-color: papayawhip;
