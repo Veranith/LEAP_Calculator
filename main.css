@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    background-color: papayawhip;
+    font-size: xx-large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* cursor: grab; */
+}
+
+.outside {
+    border: 1em solid orange;
+}
+
+#input {
+    border: 1px solid black;
+}
