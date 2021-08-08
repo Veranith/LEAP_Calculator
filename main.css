@@ -15,6 +15,7 @@
 .outside {
     border: 1em solid orange;
     background-color: papayawhip;
+    max-width: 600px;
 }
 
 #inputField {
