@@ -9,13 +9,15 @@
     font-size: xx-large;
     padding-top: 1em;
     padding-bottom: 1em;
-    /* cursor: grab; */
+    cursor: grab; 
 }
 
 .outside {
     border: 1em solid orange;
+    background-color: papayawhip;
 }
 
 #input {
     border: 1px solid black;
+    margin: 5%;
 }
