@@ -1,29 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .box {
-    border: 1px solid black;
-    text-align: center;
-    background-color: papayawhip;
-    font-size: xx-large;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    cursor: grab; 
+  border: 1px solid black;
+  text-align: center;
+  background-color: papayawhip;
+  font-size: xx-large;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  cursor: grab;
 }
 
 .box:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .outside {
-    border: 1em solid orange;
-    background-color: papayawhip;
-    max-width: 600px;
+  border: 1em solid orange;
+  background-color: papayawhip;
+  max-width: 600px;
 }
 
 #inputField {
-    border: 1px solid black;
-    margin: 5%;
-    font-size: xx-large;
+  border: 1px solid black;
+  margin: 5%;
+  font-size: xx-large;
+}
+
+.description {
+  font-size: xx-large;
+}
+
+.repoLink {
+  font-style: italic;
+  font-size: large;
 }
