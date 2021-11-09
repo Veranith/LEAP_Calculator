@@ -1,79 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
+  <head>
+    <meta charset="utf-8" />
     <title>calculator</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">    
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-</head>
-<body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <h1 class="text-center jumbotron">RyRob's calculator of many numbers.</h1>
     <div class="container-fluid row">
-        <div class="col-md-1"></div>
-        <div class="outside col-md-4">
-            <div class="row">
-                <input type="number" class="col text-right" id="inputField" placeholder="0">
-            </div>
-            <div class="row">
-                <button type="button" id="button1" class="col-4 box rounded">
-                    1
-                </button>
-                <button type="button" id="button2" class="col-4 box rounded">
-                    2
-                </button>
-                <button type="button" id="button3" class="col-4 box rounded">
-                    3
-                </button>
-            </div>
-            <div class="row">
-                <button type="button" id="button4" class="col-4 box rounded">
-                    4
-                </button>
-                <button type="button" id="button5" class="col-4 box rounded">
-                    5
-                </button>
-                <button type="button" id="button6" class="col-4 box rounded">
-                    6
-                </button>
-            </div>
-            <div class="row">
-                <button type="button" id="button7" class="col-4 box rounded">
-                    7
-                </button>
-                <button type="button" id="button8" class="col-4 box rounded">
-                    8
-                </button>
-                <button type="button" id="button9" class="col-4 box rounded">
-                    9
-                </button>
-            </div>
-            <div class="row">
-                <button type="button" id="buttonMultiply" class="col-4 box rounded">
-                    X
-                </button>
-                <button type="button" id="buttonDivide" class="col-4 box rounded">
-                    /
-                </button>
-                <button type="button" id="buttonPlus" class="col-4 box rounded">
-                    +
-                </button>
-            </div>
-            <div class="row">
-                <button type="button" id="buttonMinus" class="col-4 box rounded">
-                    -
-                </button>
-                <button type="button" id="buttonEq" class="col-8 box rounded">
-                    =
-                </button>
-            </div>
+      <div class="col-md-1"></div>
+      <div class="outside col-md-4">
+        <div class="row">
+          <input
+            type="number"
+            class="col text-right"
+            id="inputField"
+            value="0"
+          />
         </div>
-        <div class="col-md-3"></div>
-        <div class="col-md-4">
-            <p class="description">This is a calculator created by <a href="https://github.com/veranith"><i>RyRob</i></a>. It's a basic calculator. There are many like it, but this one is mine. </p>
-            <p class="repoLink"><a href="https://github.cm/veranith/LEAP_Calculator">GitHub Repository</a></p>
+        <div class="row">
+          <button type="button" id="button1" class="col-4 box rounded digit">
+            1
+          </button>
+          <button type="button" id="button2" class="col-4 box rounded digit">
+            2
+          </button>
+          <button type="button" id="button3" class="col-4 box rounded digit">
+            3
+          </button>
         </div>
+        <div class="row">
+          <button type="button" id="button4" class="col-4 box rounded digit">
+            4
+          </button>
+          <button type="button" id="button5" class="col-4 box rounded digit">
+            5
+          </button>
+          <button type="button" id="button6" class="col-4 box rounded digit">
+            6
+          </button>
+        </div>
+        <div class="row">
+          <button type="button" id="button7" class="col-4 box rounded digit">
+            7
+          </button>
+          <button type="button" id="button8" class="col-4 box rounded digit">
+            8
+          </button>
+          <button type="button" id="button9" class="col-4 box rounded digit">
+            9
+          </button>
+        </div>
+        <div class="row">
+          <button
+            type="button"
+            id="buttonMultiply"
+            class="col-4 box rounded operator"
+          >
+            X
+          </button>
+          <button
+            type="button"
+            id="buttonDivide"
+            class="col-4 box rounded operator"
+          >
+            /
+          </button>
+          <button
+            type="button"
+            id="buttonPlus"
+            class="col-4 box rounded operator"
+          >
+            +
+          </button>
+        </div>
+        <div class="row">
+          <button type="button" id="clear" class="col-4 box rounded">C</button>
+          <button
+            type="button"
+            id="buttonMinus"
+            class="col-4 box rounded operator"
+          >
+            -
+          </button>
+          <button type="button" id="buttonEq" class="col-4 box rounded">
+            =
+          </button>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-4">
+        <p class="description">
+          This is a calculator created by
+          <a href="https://github.com/veranith"><i>RyRob</i></a
+          >. It's a basic calculator. There are many like it, but this one is
+          mine.
+        </p>
+        <p class="repoLink">
+          <a href="https://github.cm/veranith/LEAP_Calculator"
+            >GitHub Repository</a
+          >
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
